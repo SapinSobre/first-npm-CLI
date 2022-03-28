@@ -1,0 +1,31 @@
+{
+  "name": "first-npm-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "holidate": "npm run ./index.js"
+  },
+  "bin": {
+    "holidate": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SapinSobre/first-npm-CLI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SapinSobre/first-npm-CLI/issues"
+  },
+  "homepage": "https://github.com/SapinSobre/first-npm-CLI#readme",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "chalk": "^5.0.1",
+    "country-list": "^2.2.0",
+    "figlet": "^1.5.2",
+    "ora": "^6.1.0",
+    "readline-sync": "^1.4.10"
+  }
+}
